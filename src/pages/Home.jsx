@@ -57,7 +57,7 @@ function Home() {
                 </div>
                 <div className="team-grid">
                     {team.map((person) => (
-                        <UserCard key={person.id} {...person}>
+                        <UserCard key={person.id} {...person} >
                             <p className="card-note">Foco: {person.focus}</p>
                         </UserCard>
                     ))}
